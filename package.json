@@ -1,0 +1,28 @@
+{
+  "name": "payment-gateway",
+  "version": "1.0.0",
+  "description": "A simple payment gateway demo",
+  "scripts": {
+    "start": "NODE_ENV=dev nodemon --exec babel-node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedKhFa/Payment-Gateway.git"
+  },
+  "author": "Ahmed Khaled",
+  "bugs": {
+    "url": "https://github.com/AhmedKhFa/Payment-Gateway/issues"
+  },
+  "homepage": "https://github.com/AhmedKhFa/Payment-Gateway#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "nodemon": "^1.18.10",
+    "custom-env": "^1.0.0"
+  }
+}
