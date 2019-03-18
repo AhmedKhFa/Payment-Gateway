@@ -814,6 +814,13 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
+"@babel/runtime@^7.1.2":
+  version "7.3.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.3.4.tgz#73d12ba819e365fcf7fd152aed56d6df97d21c83"
+  integrity sha512-IvfvnMdSaLBateu0jfsYIpZTxAc2cKEXEMiezGGN75QcBcecDUKd3PgLAncT0oOgxKy8dd8hrJKj9MfzgfZd6g==
+  dependencies:
+    regenerator-runtime "^0.12.0"
+
 "@babel/template@^7.1.0", "@babel/template@^7.1.2", "@babel/template@^7.2.2":
   version "7.2.2"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.2.2.tgz#005b3fdf0ed96e88041330379e0da9a708eb2907"
@@ -2256,6 +2263,11 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classnames@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+  integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
+
 clean-css@4.2.x:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.1.tgz#2d411ef76b8569b6d0c84068dabe85b0aa5e5c17"
@@ -3100,6 +3112,13 @@ dom-converter@^0.2:
   integrity sha512-gd3ypIPfOMr9h5jIKq8E3sHOTCjeirnl0WK5ZdS1AW0Odt0b1PaWaHdJ4Qk4klv+YB9aJBS7mESXjFoDQPu6DA==
   dependencies:
     utila "~0.4"
+
+dom-helpers@^3.3.1:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.4.0.tgz#e9b369700f959f62ecde5a6babde4bccd9169af8"
+  integrity sha512-LnuPJ+dwqKDIyotW1VzmOZ5TONUN7CwkCR5hrgawTUbkBGYdeoNLZo6nNfGkCrjtE1nXXaj7iMMpDa8/d9WoIA==
+  dependencies:
+    "@babel/runtime" "^7.1.2"
 
 dom-serializer@0:
   version "0.1.1"
@@ -4720,6 +4739,11 @@ inquirer@^6.1.0:
     string-width "^2.1.0"
     strip-ansi "^5.0.0"
     through "^2.3.6"
+
+install@^0.12.2:
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/install/-/install-0.12.2.tgz#ea10e9b2cbb5b0484f25080b24b5b34429d9f564"
+  integrity sha512-+7thTb4Rpvs9mnlhHKGZFJbGOO6kyMgy+gg0sgM5vFzIFK0wrCYXqdlaM71Bi289DTuPHf61puMFsaZBcwDIrg==
 
 internal-ip@^3.0.1:
   version "3.0.1"
@@ -7670,6 +7694,21 @@ pretty-format@^23.6.0:
     ansi-regex "^3.0.0"
     ansi-styles "^3.2.0"
 
+primeflex@^1.0.0-rc.1:
+  version "1.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/primeflex/-/primeflex-1.0.0-rc.1.tgz#8f3555522238870500baa8587e360095261fff5f"
+  integrity sha512-JVrQE0ulyP0UJ3Rn8UI1RjmpHU/f4CIm7BI18xoMLlUriAViiykFMmtDTvUC0AZWHl4YhgEvHJIZ7EERxER2cg==
+
+primeicons@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/primeicons/-/primeicons-1.0.0.tgz#90061f168ef6227f21f0a7db8204ffa85cd27aec"
+  integrity sha512-p/hzIjUVccW4eJPhuORHI3AUkDpqfvCQVrjxbFEejnTEdWY4C8fomVfjiaA9jCu83fSQnBHuRIGB96iAR8R6uA==
+
+primereact@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/primereact/-/primereact-3.1.0.tgz#39262611140bd7c9164d7236770a99b46e58063b"
+  integrity sha512-09qcKII90KM+fqNqU/d14RwfuFfAc92baS7g7ssbfJdUljFKtPXT0XAg3SQvXzSxBLneI+AbaAn0m/ebc0udkA==
+
 private@^0.1.6, private@^0.1.8:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
@@ -7924,7 +7963,7 @@ react-dev-utils@^8.0.0:
     strip-ansi "5.0.0"
     text-table "0.2.0"
 
-react-dom@16.8.4:
+react-dom@^16.8.4:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.4.tgz#1061a8e01a2b3b0c8160037441c3bf00a0e3bc48"
   integrity sha512-Ob2wK7XG2tUDt7ps7LtLzGYYB6DXMCLj0G5fO6WeEICtT4/HdpOi7W/xLzZnR6RCG1tYza60nMdqtxzA8FaPJQ==
@@ -7943,6 +7982,11 @@ react-is@^16.8.1:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.4.tgz#90f336a68c3a29a096a3d648ab80e87ec61482a2"
   integrity sha512-PVadd+WaUDOAciICm/J1waJaSvgq+4rHE/K70j0PFqKhkTBsPv/82UGQJNXAngz1fOQLLxI6z1sEDmJDQhCTAA==
+
+react-lifecycles-compat@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
+  integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
 react-scripts@2.1.8:
   version "2.1.8"
@@ -7998,7 +8042,17 @@ react-scripts@2.1.8:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@16.8.4:
+react-transition-group@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-2.6.1.tgz#abf4a95e2f13fb9ba83a970a896fedbc5c4856a2"
+  integrity sha512-9DHwCy0aOYEe35frlEN68N9ut/THDQBLnVoQuKTvzF4/s3tk7lqkefCqxK2Nv96fOh6JXk6tQtliygk6tl3bQA==
+  dependencies:
+    dom-helpers "^3.3.1"
+    loose-envify "^1.4.0"
+    prop-types "^15.6.2"
+    react-lifecycles-compat "^3.0.4"
+
+react@^16.8.4:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.4.tgz#fdf7bd9ae53f03a9c4cd1a371432c206be1c4768"
   integrity sha512-0GQ6gFXfUH7aZcjGVymlPOASTuSjlQL4ZtVC5YKH+3JL6bBLCVO21DknzmaPlI90LN253ojj02nsapy+j7wIjg==

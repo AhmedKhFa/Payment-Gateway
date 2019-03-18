@@ -3,9 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "classnames": "^2.2.6",
+    "install": "^0.12.2",
+    "primeflex": "^1.0.0-rc.1",
+    "primeicons": "^1.0.0",
+    "primereact": "^3.1.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "react-transition-group": "^2.6.1"
   },
   "scripts": {
     "start": "react-scripts start",

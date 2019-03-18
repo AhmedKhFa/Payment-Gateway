@@ -16,6 +16,7 @@
   "homepage": "https://github.com/AhmedKhFa/Payment-Gateway#readme",
   "dependencies": {
     "braintree": "^2.15.0",
+    "cors": "^2.8.5",
     "dotenv": "^7.0.0",
     "express": "^4.16.4",
     "express-validator": "^5.3.1",
